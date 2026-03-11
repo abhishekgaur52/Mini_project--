@@ -2,71 +2,68 @@ Flask==3.0.3
 Flask-SQLAlchemy==3.1.1
 gunicorn==25.0.1
 
-aiohttp==3.9.5
-aiosignal==1.3.1
-attrs==23.2.0
-frozenlist==1.8.0
-multidict==6.7.1
-propcache==0.4.1
-yarl==1.9.4
+aiohttp
+aiosignal
+attrs
+frozenlist
+multidict
+propcache
+yarl
 
-google==3.0.0
-google-api-core==2.29.0
-google-api-python-client==2.188.0
-google-auth==2.48.0
-google-auth-httplib2==0.3.0
-google-cloud-speech==2.36.0
-google-cloud-texttospeech==2.34.0
-google-ai-generativelanguage==0.6.15
-google-generativeai==0.8.6
-googleapis-common-protos==1.72.0
-proto-plus==1.27.0
-protobuf==5.29.5
+google
+google-api-core
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-cloud-speech
+google-cloud-texttospeech
+google-ai-generativelanguage
+google-generativeai
+googleapis-common-protos
+proto-plus
 
-httpcore==1.0.9
-httpx==0.28.1
-h11==0.16.0
-httplib2==0.31.2
-idna==3.11
+httpcore
+httpx
+h11
+httplib2
+idna
 
-Jinja2==3.1.6
-itsdangerous==2.2.0
-MarkupSafe==3.0.3
-Mako==1.3.10
+Jinja2
+itsdangerous
+MarkupSafe
+Mako
 
-numpy==1.26.4
-packaging==24.1
-pillow==10.4.0
+numpy
+packaging
+pillow
+psutil
 
-psutil==5.9.8
+pyasn1
+pyasn1_modules
+pyparsing
+python-dateutil
 
-pyasn1==0.6.2
-pyasn1_modules==0.4.2
-pyparsing==3.2.0
+pydantic
+pydantic_core
 
-python-dateutil==2.9.0.post0
+openai
 
-pydantic==2.12.5
-pydantic_core==2.41.5
+pySmartDL
+PyPrind
 
-openai==1.30.5
+Js2Py
+pyjsparser
 
-pySmartDL==1.3.4
-PyPrind==2.11.3
+plyer
 
-Js2Py==0.74
-pyjsparser==2.7.1
-
-plyer==2.1.0
-
-# Windows-only libraries
-pywin32==306; platform_system=="Windows"
-pypiwin32==223; platform_system=="Windows"
-PyAutoGUI==0.9.54; platform_system=="Windows"
-MouseInfo==0.1.3; platform_system=="Windows"
-PyGetWindow==0.0.9; platform_system=="Windows"
-PyRect==0.2.0; platform_system=="Windows"
-PyMsgBox==2.0.1; platform_system=="Windows"
-PyScreeze==1.0.1; platform_system=="Windows"
-pyperclip==1.8.2; platform_system=="Windows"
-pytweening==1.2.0; platform_system=="Windows"
+# Windows only packages
+pywin32; platform_system=="Windows"
+pypiwin32; platform_system=="Windows"
+PyAutoGUI; platform_system=="Windows"
+MouseInfo; platform_system=="Windows"
+PyGetWindow; platform_system=="Windows"
+PyRect; platform_system=="Windows"
+PyMsgBox; platform_system=="Windows"
+PyScreeze; platform_system=="Windows"
+pyperclip; platform_system=="Windows"
+pytweening; platform_system=="Windows"
