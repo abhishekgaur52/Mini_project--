@@ -77,26 +77,19 @@ accessibility_assistant/
 
 ##  Setup Instructions
 
-### 1️ Clone Project
-
-```bash
-git clone https://github.com/your-repo/accessibility-assistant.git
-cd accessibility-assistant
-```
-
-### 3️⃣ Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Set API Key (IMPORTANT)
+###  Set API Key (IMPORTANT)
 
 ```powershell
 $env:GOOGLE_API_KEY="YOUR_API_KEY"
 ```
 
-### 5️⃣ Run Project
+###  Run Project
 
 ```bash
 python app.py
