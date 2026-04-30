@@ -84,13 +84,6 @@ git clone https://github.com/your-repo/accessibility-assistant.git
 cd accessibility-assistant
 ```
 
-### 2️⃣ Create Virtual Environment
-
-```bash
-python -m venv venv
-venv\Scripts\activate   # Windows
-```
-
 ### 3️⃣ Install Dependencies
 
 ```bash
